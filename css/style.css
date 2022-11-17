@@ -1,0 +1,179 @@
+
+/*
+=============== 
+Navbar
+===============
+*/
+
+nav {
+  background-color: #140152;
+  top: 0;
+  width: 100%;
+  padding-left: 16px;
+}
+
+nav img { /* Logo Image */
+  height: 80px;
+}
+
+.nav-links a {
+  font-size: 1.25rem;
+  padding-top: 16px;
+  padding-right: 12px;
+  color: #CCC;
+}
+.current-nav {
+  color: #e3c61e !important;
+}
+
+
+/*
+=============== 
+Main CSS
+===============
+*/
+
+body {
+  margin: 0;
+  background-color: #ddebff;
+  color: #333;
+}
+
+main {
+  margin: 0;
+  padding-left: 12px;
+  padding-top: 16px;
+  padding-bottom: 64px;
+}
+h1, h2, h3 {
+  display: inline;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+p {
+  font-size: 20px;
+}
+
+
+a:hover {
+  color: red;
+}
+
+a {
+  color: #333;
+} 
+
+svg { /* Icons */
+  width: 32px;
+  height: 32px;
+}
+
+/*
+=============== 
+Intro Section
+===============
+*/
+
+.tagline {
+  display: block;
+  font-size: 8.5vw;
+  font-family: Georgia, serif;
+  margin: 0;
+}
+
+.intro-text {
+  width: 50vw;
+  font-size: 2vw;
+}
+
+.banner-img {
+  width: 48vw;
+  display: block;
+  margin-left: auto;
+}
+
+
+.intro-section div {
+  position: absolute;
+}
+
+
+/*
+=============== 
+About Page
+===============
+*/
+
+.about-section {
+  font-size: 32px;
+}
+
+.group-info h2,h3 {
+  display: block;
+}
+
+.group-info img {
+  width: 256px;
+  height: 256px;
+  border-radius: 50%;
+}
+
+/*
+=============== 
+Recipes Page
+===============
+*/
+.meal-plan-section img {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+}
+
+.ingredient-measure {
+  color: #896400;
+  font-size: 14px;
+  padding: 2px;
+}
+
+/*
+=============== 
+Single Recipe Page
+===============
+*/
+
+.single-recipe-section img {
+  width: 50vw;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*
+=============== 
+Contacts Page
+===============
+*/
+
+
+/*
+=============== 
+Footer
+===============
+*/
+
+footer {
+  text-align: center;
+  height: 40px;
+  width: 100%;
+  background: #140152;
+  color: #CCC;
+  bottom: 0;
+  font-size: 32px;
+}
+
+
+
+
