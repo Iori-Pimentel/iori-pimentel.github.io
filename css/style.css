@@ -166,12 +166,12 @@ Footer
 
 footer {
   text-align: center;
-  height: 40px;
+  height: 32px;
   width: 100%;
   background: #140152;
   color: #CCC;
   bottom: 0;
-  font-size: 32px;
+  font-size: 5vw;
 }
 
 
