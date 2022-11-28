@@ -1,2 +1,2 @@
 # Ecouisine
-Meal Plan Recipe
+Development Repository of Ecouisine
