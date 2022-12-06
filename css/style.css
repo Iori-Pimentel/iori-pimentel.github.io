@@ -162,3 +162,11 @@ Footer
 footer > div > div{
   padding: 0 5em;
 }
+
+@media (max-width: 600px) {
+  footer > div > div{
+    padding: 0;
+}
+}
+
+
