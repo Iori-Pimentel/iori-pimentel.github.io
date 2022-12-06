@@ -165,7 +165,7 @@
   background: var(--background);
   border-radius: var(--border-radius);
   position: relative;
-  box-shadow: 0 10px 30px rgba(65, 72, 86, 0.05);
+  box-shadow: 0 10px 30px rgba(65, 72, 86, 0.2);
   padding: 30px 45px;
   margin: 1em 0;
   display: grid;
