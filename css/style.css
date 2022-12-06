@@ -35,9 +35,9 @@ html {
   scroll-padding-top: 150px;
 }
 
-body {
+main {
   margin: 0;
-  color: #f4fdff;
+  background: #f6fdff;
 }
 
 main {
@@ -157,3 +157,6 @@ Footer
 ===============
  */
 
+footer > div > div{
+  padding: 0 5em;
+}
