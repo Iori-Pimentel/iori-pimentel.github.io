@@ -167,6 +167,7 @@
   position: relative;
   box-shadow: 0 10px 30px rgba(65, 72, 86, 0.05);
   padding: 30px 45px;
+  margin: 1em 0;
   display: grid;
   grid-template-columns: 30px auto;
   align-items: center;
@@ -418,7 +419,7 @@
 .single-preparation-step {
   position: relative;
   z-index: 1;
-margin-bottom: 10px; }
+margin: 5px 0; }
 .single-preparation-step h4 {
   color: #474747;
   -webkit-box-flex: 0;
@@ -430,7 +431,7 @@ margin-bottom: 0; }
 
 
 p {
-  color: #9b9b9b;
+  color: #4f4f4f;
   font-size: 20px;
   line-height: 2;
 font-weight: 400; }

@@ -23,9 +23,6 @@ nav img { /* Logo Image */
   padding-right: 12px;
   color: #CCC;
 }
-.current-nav {
-  color: #e3c61e !important;
-}
 
 
 /*
@@ -40,9 +37,7 @@ html {
 
 body {
   margin: 0;
-  background-color: #0093E9;
-  background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
-  color: #333;
+  color: #f4fdff;
 }
 
 main {
@@ -62,14 +57,11 @@ p {
   font-size: 20px;
 }
 
+a:hover { color: #666 !important; }
 
-a:hover {
-  color: red;
+.current-nav, .current-nav:hover {
+  color: #e3c61e !important;
 }
-
-a {
-  color: #333;
-} 
 
 svg { /* Icons */
   width: 32px;
@@ -164,16 +156,4 @@ Contacts Page
 Footer
 ===============
  */
-
-footer {
-  text-align: center;
-  height: 32px;
-  width: 100%;
-  background: #140152;
-  color: #CCC;
-  bottom: 0;
-  font-size: 16px;
-  padding-top: 8px
-}
-
 
