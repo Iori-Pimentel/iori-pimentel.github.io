@@ -6,6 +6,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="../css/style.css" rel="stylesheet">
+    <link href="../css/single-recipe.css" rel="stylesheet">
+      <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+      <!-- JavaScript Bundle with Popper -->
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
   </head>
 
   <body>
@@ -24,69 +29,98 @@
 
     <main>
       <section class="single-recipe-section">
-        <h2>Steel Cut Oatmeal with Frozen Berries and Walnuts</h2>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M0 192c0-35.3 28.7-64 64-64c.5 0 1.1 0 1.6 0C73 91.5 105.3 64 144 64c15 0 29 4.1 40.9 11.2C198.2 49.6 225.1 32 256 32s57.8 17.6 71.1 43.2C339 68.1 353 64 368 64c38.7 0 71 27.5 78.4 64c.5 0 1.1 0 1.6 0c35.3 0 64 28.7 64 64c0 11.7-3.1 22.6-8.6 32H8.6C3.1 214.6 0 203.7 0 192zm0 88V256H512v24c0 67-39.2 124.9-96 151.8V480H96V431.8C39.2 404.9 0 347 0 280z"/></svg>
-        <p>8 servings eaten over 2 breakfasts </p>
-        <img src="../images/Food/food-2.png" alt="Steel Cut Oatmeal with Frozen Berries and Walnuts">
-        <p>If you’ve never made oatmeal with steel cut oats, definitely
-          give them a go with this recipe. We use coconut milk for extra
-          creaminess and a little sweetness too (most cans contain 2
-          cups but don’t worry, you’ll use the rest in this weekend’s
-          curried sweet potato soup!). This fiber-filled base serves as a
-          blank palette for a variety of toppings - sweet and savory. We’ve
-          chosen frozen fruit one morning and fresh sliced bananas the
-          next, but feel free to try it with whatever you love best! </p>
-
-        <h3>Ingredients</h3>
-        <ul>
-          <li>Water - 8 cups</li>
-          <li>Coconut milk, light - 1 cup</li>
-          <li>Steel cut oats - 2 cups</li>
-          <li>Brown sugar - 2 tsp</li>
-          <li>Salt - ½ tsp</li>
-          <li>Frozen berries, your choice - 2 cups</li>
-          <li>Bananas, sliced - 2</li>
-          <li>Walnuts, crushed - ½ cup</li>
-        </ul>
-        <h3>Extras or Swaps</h3>
-        <ul>
-          <li>Feel free to skip the coconut milk or swap in regular milk</li>
-          <li>Fruit toppings | chopped apples, pomegranate seeds, dried
-            fruit - like raisins or chopped apricots, prunes, coconut
-            shavings, any fresh berry, chopped mango</li>
-          <li>Other toppings | pecans, almonds, pistachios, sunflower
-            seeds, yogurt, honey, maple syrup, cinnamon</li>
-          <li>Other ideas | chia or flax seeds (cook them right with the
-            oatmeal)</li>
-          <li>For savory oatmeal, skip the coconut milk (or swap in
-            regular milk) and brown sugar.</li>
-          <li>For a protein-packed version, top with a fried egg and some
-            chopped up turkey slices.</li>
-          <li>Eat like a Chinese congee, and add some chopped up ham
-            or edamame. Top with green onions and drizzle on some soy
-            sauce and / or toasted sesame oil.</li>
-          <li>Enjoy an Italian spin, and add some chopped up prosciutto
-            and sun-dried tomatoes. Top with parmesan shavings, pine
-            nuts, and a fried egg.</li>
-        </ul>
-        <h3>Make</h3>
-        <ol>
-          <li>Bring water and coconut milk to a boil in a large
-            saucepan or Dutch oven. (If you have a rice cooker,
-            you can also just combine all ingredients but fruit in the
-            rice cooker, and hit the porridge setting if you have one.
-            Otherwise, just hit cook.)</li>
-          <li>Stir in oats, brown sugar, and salt. Simmer for 45 to 55
-            minutes, until oats are tender.</li>
-          <li>Divide in half. Stir frozen berries into one half and
-            sliced bananas into the other half. Store in two separate
-            containers or if you plan on taking them to-go and have
-            plenty of Tupperware, divide each half into 4 separate
-            containers and sprinkle with walnuts.</li>
-          <li>To reheat for breakfast, use your microwave re-heat
-            setting or microwave on high for 1 to 1 ½ minutes, stirring
-            once midway through.</li>
-        </ol>
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <div class="card-container">
+                <div class="card u-clearfix">
+                  <div class="card-body">
+                    <span class="card-number card-circle subtle">04</span>
+                    <span class="card-author subtle">8 servings eaten over 2 breakfasts</span>
+                    <h2 class="card-title">Steel Cut Oatmeal with Frozen Berries and Walnuts</h2>
+                    <span class="card-description subtle">If you’ve never made oatmeal with steel cut oats, definitely give them a go with this recipe. We use coconut milk for extra creaminess and a little sweetness too (most cans contain 2 cups but don’t worry, you’ll use the rest in this weekend’s curried sweet potato soup!). This fiber-filled base serves as a blank palette for a variety of toppings - sweet and savory. We’ve chosen frozen fruit one morning and fresh sliced bananas the next, but feel free to try it with whatever you love best!</span>
+                    <div class="card-read">
+                      <a href="#start">Click to Start</a>
+                    </div>
+                    
+                  </div>
+                  <div class="cont_photo">
+                    <div class="cont_img_back">
+                      <img src="../images/Food/food-2.png" alt="" />
+                    </div>
+                  </div>
+                </div>
+                <div class="card-shadow"></div>
+              </div>
+            </div>
+          </div>
+          <div class="row mt-5" id="start">
+            <div class="col-12 col-lg-8">
+              <h3>Make</h3>
+              
+              <div class="single-preparation-step d-flex">
+                <h4>01.</h4>
+                <p>Bring water and coconut milk to a boil in a large saucepan or Dutch oven. (If you have a rice cooker, you can also just combine all ingredients but fruit in the rice cooker, and hit the porridge setting if you have one. Otherwise, just hit cook.)</p>
+              </div>
+              
+              <div class="single-preparation-step d-flex">
+                <h4>02.</h4>
+                <p>Stir in oats, brown sugar, and salt. Simmer for 45 to 55 minutes, until oats are tender.</p>
+              </div>
+              
+              <div class="single-preparation-step d-flex">
+                <h4>03.</h4>
+                <p>Divide in half. Stir frozen berries into one half and sliced bananas into the other half. Store in two separate containers or if you plan on taking them to-go and have plenty of Tupperware, divide each half into 4 separate containers and sprinkle with walnuts.</p>
+              </div>
+             
+              <div class="single-preparation-step d-flex">
+                <h4>04.</h4>
+                <p>To reheat for breakfast, use your microwave re-heat setting or microwave on high for 1 to 1 ½ minutes, stirring once midway through.</p>
+              </div>
+              
+            </div>
+            <div class="col-10 col-lg-4">
+              <h3>Ingredients</h3>
+              <div id="checklist">
+                <input id="01" type="checkbox" name="r">
+                <label for="01">Water  [8 cups]</label>
+                <input id="02" type="checkbox" name="r">
+                <label for="02">Coconut milk, light [1 cup]</label>
+                <input id="03" type="checkbox" name="r">
+                <label for="03">Steel cut oats [2 cups]</label>
+                <input id="04" type="checkbox" name="r">
+                <label for="04">Brown sugar [2 tsp]</label>
+                <input id="05" type="checkbox" name="r">
+                <label for="05">Salt [¹/₂ tsp]</label>
+                <input id="06" type="checkbox" name="r">
+                <label for="06">Frozen berries, your choice [2 cups]</label>
+                <input id="07" type="checkbox" name="r">
+                <label for="07">Bananas, sliced [2]</label>
+                <input id="08" type="checkbox" name="r">
+                <label for="08">Walnuts, crushed [¹/₂ cup]</label>
+              </div>
+              <h3>Extras or Swaps</h3>
+              <div id="checklist">
+                <input id="11" type="checkbox" name="r">
+                <label for="11">Regular milk</label>
+                <input id="12" type="checkbox" name="r">
+                <label for="12">Chopped apples, pomegranate seeds, dried fruit</label>
+                <input id="13" type="checkbox" name="r">
+                <label for="13">Pecans, almonds, pistachios, sunflower seeds, yogurt, honey, maple syrup, cinnamon</label>
+                <input id="14" type="checkbox" name="r">
+                <label for="14">Chia or flax seeds</label>
+                <input id="15" type="checkbox" name="r">
+                <label for="15">Regular milk and brown sugar</label>
+                <input id="16" type="checkbox" name="r">
+                <label for="16">Fried egg and some chopped up turkey slices</label>
+                <input id="17" type="checkbox" name="r">
+                <label for="17">Chopped up ham or edamame</label>
+                <input id="18" type="checkbox" name="r">
+                <label for="18">Chopped up prosciutto and sun-dried tomatoes</label>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
 
