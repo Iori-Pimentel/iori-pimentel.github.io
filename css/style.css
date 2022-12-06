@@ -81,30 +81,30 @@ svg { /* Icons */
 Intro Section
 ===============
  */
-
-.tagline {
-  display: block;
-  font-size: 8.5vw;
-  font-family: Georgia, serif;
-  margin: 0;
-}
-
-.intro-text {
-  width: 50vw;
-  font-size: 2vw;
-}
-
-.banner-img {
-  width: 48vw;
-  display: block;
-  margin-left: auto;
-}
-
-
-.intro-section div {
-  position: absolute;
-}
-
+/**/
+/* .tagline { */
+/*   display: block; */
+/*   font-size: 8.5vw; */
+/*   font-family: Georgia, serif; */
+/*   margin: 0; */
+/* } */
+/**/
+/* .intro-text { */
+/*   width: 50vw; */
+/*   font-size: 2vw; */
+/* } */
+/**/
+/* .banner-img { */
+/*   width: 48vw; */
+/*   display: block; */
+/*   margin-left: auto; */
+/* } */
+/**/
+/**/
+/* .intro-section div { */
+/*   position: absolute; */
+/* } */
+/**/
 
 /*
 =============== 
@@ -175,3 +175,5 @@ footer {
   font-size: 16px;
   padding-top: 8px
 }
+
+
