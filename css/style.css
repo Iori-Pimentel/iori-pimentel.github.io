@@ -3,7 +3,7 @@
 =============== 
 Navbar
 ===============
-*/
+ */
 
 nav {
   background-color: #140152;
@@ -14,6 +14,7 @@ nav {
 
 nav img { /* Logo Image */
   height: 80px;
+  margin-left: 2em;
 }
 
 .nav-links a {
@@ -31,7 +32,11 @@ nav img { /* Logo Image */
 =============== 
 Main CSS
 ===============
-*/
+ */
+
+html {
+  scroll-padding-top: 150px;
+}
 
 body {
   margin: 0;
@@ -75,7 +80,7 @@ svg { /* Icons */
 =============== 
 Intro Section
 ===============
-*/
+ */
 
 .tagline {
   display: block;
@@ -105,7 +110,7 @@ Intro Section
 =============== 
 About Page
 ===============
-*/
+ */
 
 .about-section {
   font-size: 32px;
@@ -125,12 +130,12 @@ About Page
 =============== 
 Recipes Page
 ===============
-*/
-.meal-plan-section img {
-  width: 64px;
-  height: 64px;
-  border-radius: 50%;
-}
+ */
+/* .meal-plan-section img { */
+/*   width: 64px; */
+/*   height: 64px; */
+/*   border-radius: 50%; */
+/* } */
 
 .ingredient-measure {
   color: #896400;
@@ -142,27 +147,23 @@ Recipes Page
 =============== 
 Single Recipe Page
 ===============
-*/
+ */
 
-.single-recipe-section img {
-  width: 50vw;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+.single-recipe-section description {
 }
 
 /*
 =============== 
 Contacts Page
 ===============
-*/
+ */
 
 
 /*
 =============== 
 Footer
 ===============
-*/
+ */
 
 footer {
   text-align: center;
@@ -174,4 +175,3 @@ footer {
   font-size: 16px;
   padding-top: 8px
 }
-
