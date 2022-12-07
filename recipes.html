@@ -628,7 +628,43 @@
       <script src="https://preview.colorlib.com/theme/bac/accordion-02/js/bootstrap.min.js"></script>
       <script src="https://preview.colorlib.com/theme/bac/accordion-02/js/main.js"></script>
       <script defer src="https://static.cloudflareinsights.com/beacon.min.js/vaafb692b2aea4879b33c060e79fe94621666317369993" integrity="sha512-0ahDYl866UMhKuYcW078ScMalXqtFJggm7TmlUtp0UlD4eQk0Ixfnm5ykXKvGJNFjLMoortdseTfsRT8oCfgGA==" data-cf-beacon='{"rayId":"775442291e9a6e5d","token":"cd0b4b3a733644fc843ef0b185f98241","version":"2022.11.3","si":100}' crossorigin="anonymous"></script>
+        <!-- Back to top button -->
+<button
+        type="button"
+        class="btn btn-light btn-floating btn-lg"
+        id="btn-back-to-top"
+        >
+  <i><img style="width: 2em; height: auto;" src="images/arrow-up.png" alt="arrow up"></i>
+</button>
+
     </main>
+      <script>
+        //Get the button
+let mybutton = document.getElementById("btn-back-to-top");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function () {
+  scrollFunction();
+};
+
+function scrollFunction() {
+  if (
+    document.body.scrollTop > 20 ||
+    document.documentElement.scrollTop > 20
+  ) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+// When the user clicks on the button, scroll to the top of the document
+mybutton.addEventListener("click", backToTop);
+
+function backToTop() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+      </script>
 
     <footer style="background-color: #deded5;">
       <div class="container-fluid p-4">
