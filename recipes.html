@@ -1,28 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Ecouisine | Meal Plan</title>
+    <title>Meal Plan | Ecouisine</title>
     <link rel="icon" href="images/logo.png" type="image/icon type">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="css/style.css" rel="stylesheet">
-    <link href="css/accordion.css" rel="stylesheet">
-    <link href="css/flaticon.css" rel="stylesheet">
+    <link href="css/core.css" rel="stylesheet">
       <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
       <!-- JavaScript Bundle with Popper -->
     <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script defer src="scripts/script.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/4.5.6/css/ionicons.min.css">
-    <link rel="stylesheet" href="https://preview.colorlib.com/theme/bac/accordion-02/css/style.css">
+    <script defer src="https://preview.colorlib.com/theme/bac/accordion-02/js/jquery.min.js"></script>
+    <script defer src="https://preview.colorlib.com/theme/bac/accordion-02/js/popper.js"></script>
+    <script defer src="https://preview.colorlib.com/theme/bac/accordion-02/js/bootstrap.min.js"></script>
+    <script defer src="https://preview.colorlib.com/theme/bac/accordion-02/js/main.js"></script>
+    <script defer defer src="https://static.cloudflareinsights.com/beacon.min.js/vaafb692b2aea4879b33c060e79fe94621666317369993" integrity="sha512-0ahDYl866UMhKuYcW078ScMalXqtFJggm7TmlUtp0UlD4eQk0Ixfnm5ykXKvGJNFjLMoortdseTfsRT8oCfgGA==" data-cf-beacon='{"rayId":"775442291e9a6e5d","token":"cd0b4b3a733644fc843ef0b185f98241","version":"2022.11.3","si":100}' crossorigin="anonymous"></script>
+    <link href="css/recipes.css" rel="stylesheet">
   </head>
   <body>
 
     <nav class="navbar navbar-expand-lg sticky-top navbar-dark">
-      <a href="index.html" class="navbar-brand">
+      <a href="index.html" class="ms-3 navbar-brand">
         <img src="images/logoWithTitle.png" alt="ECouisine Logo" />
       </a>
-        <button type="button" class="me-4 navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar">
+      <button type="button" class="me-4 navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="nav-links collapse navbar-collapse" id="navbar">
@@ -31,7 +35,7 @@
             <a class="nav-link" href="index.html"> Home </a>
           </li>
           <li class="nav-item ms-4">
-            <a class="nav-link current-nav" href="recipes.html"> Meal Plans </a>
+            <a class="nav-link current-nav" href="#"> Meal Plans </a>
           </li>
           <li class="nav-item ms-4">
             <a class="nav-link" href="about.html"> About Us </a>
@@ -55,8 +59,8 @@
                 <div class="card-header p-0" id="headingOne">
                   <h2 class="mb-0">
                     <button class="d-flex py-4 px-4 align-items-center justify-content-between btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                    
-                      <p class="mb-0 ms-0"><span><img src="images/diet.png" style="width: auto; height: 3em" alt=""></span>Day 1</p>
+
+                      <p class="mb-0 ms-0"><span><img src="images/diet.png" style="width: auto; height: 3em" alt="Accordion Icon"></span>Day 1</p>
                       <i class="fa" aria-hidden="true"></i>
                     </button>
                   </h2>
@@ -85,8 +89,8 @@
                         <div class="d-flex">
                           <div class="one-half">
                             <a href="MealPlan/day1-lunch.html">
-                            <h3> Rotisserie Chicken Quesadilla Triangles with Celery & Hummus </h3>
-                          </a>
+                              <h3> Rotisserie Chicken Quesadilla Triangles with Celery & Hummus </h3>
+                            </a>
                           </div>
                           <div class="one-forth">
                             <span class="price">Lunch</span>
@@ -101,8 +105,8 @@
                         <div class="d-flex">
                           <div class="one-half">
                             <a href="MealPlan/day1-dinner.html">
-                            <h3> Panko Salmon with Quinoa and Maple-Balsamic Roasted Carrots </h3>
-                          </a>
+                              <h3> Panko Salmon with Quinoa and Maple-Balsamic Roasted Carrots </h3>
+                            </a>
                           </div>
                           <div class="one-forth">
                             <span class="price">Dinner</span>
@@ -119,7 +123,7 @@
                 <div class="card-header p-0" id="headingTwo">
                   <h2 class="mb-0">
                     <button class="d-flex py-4 px-4 align-items-center justify-content-between btn btn-link" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
-                      <p class="mb-0"><span><img src="images/diet.png" style="width: auto; height: 3em" alt=""></span>Day 2</p>
+                      <p class="mb-0"><span><img src="images/diet.png" style="width: auto; height: 3em" alt="Accordion Icon"></span>Day 2</p>
                       <i class="fa" aria-hidden="true"></i>
                     </button>
                   </h2>
@@ -133,8 +137,8 @@
                         <div class="d-flex">
                           <div class="one-half">
                             <a href="MealPlan/day2-breakfast.html">
-                            <h3> Steel Cut Oatmeal with Frozen Berries and Walnuts </h3>
-                          </a>
+                              <h3> Steel Cut Oatmeal with Frozen Berries and Walnuts </h3>
+                            </a>
                           </div>
                           <div class="one-forth">
                             <span class="price">Breakfast</span>
@@ -149,8 +153,8 @@
                         <div class="d-flex">
                           <div class="one-half">
                             <a href="MealPlan/day2-lunch.html">
-                            <h3> Hummus, Cucumber, and Tomato Wraps with Apples </h3>
-                          </a>
+                              <h3> Hummus, Cucumber, and Tomato Wraps with Apples </h3>
+                            </a>
                           </div>
                           <div class="one-forth">
                             <span class="price">Lunch</span>
@@ -165,8 +169,8 @@
                         <div class="d-flex">
                           <div class="one-half">
                             <a href="MealPlan/day2-dinner.html">
-                            <h3> Cumin Roasted Vegetable and Chickpea Tacos </h3>
-                          </a>
+                              <h3> Cumin Roasted Vegetable and Chickpea Tacos </h3>
+                            </a>
                           </div>
                           <div class="one-forth">
                             <span class="price">Dinner</span>
@@ -183,7 +187,7 @@
                 <div class="card-header p-0" id="headingThree">
                   <h2 class="mb-0">
                     <button class="d-flex py-4 px-4 align-items-center justify-content-between btn btn-link" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
-                      <p class="mb-0"><span><img src="images/diet.png" style="width: auto; height: 3em" alt=""></span>Day 3</p>
+                      <p class="mb-0"><span><img src="images/diet.png" style="width: auto; height: 3em" alt="Accordion Icon"></span>Day 3</p>
                       <i class="fa" aria-hidden="true"></i>
                     </button>
                   </h2>
@@ -196,8 +200,8 @@
                         <div class="d-flex">
                           <div class="one-half">
                             <a href="MealPlan/day3-breakfast.html">
-                            <h3> Southwest Egg & Cheese Breakfast Sandwiches </h3>
-                          </a>
+                              <h3> Southwest Egg & Cheese Breakfast Sandwiches </h3>
+                            </a>
                           </div>
                           <div class="one-forth">
                             <span class="price">Breakfast</span>
@@ -212,8 +216,8 @@
                         <div class="d-flex">
                           <div class="one-half">
                             <a href="MealPlan/day3-lunch.html">
-                            <h3> Tuna and Cucumber Sandwiches with Apples </h3>
-                          </a>
+                              <h3> Tuna and Cucumber Sandwiches with Apples </h3>
+                            </a>
                           </div>
                           <div class="one-forth">
                             <span class="price">Lunch</span>
@@ -228,8 +232,8 @@
                         <div class="d-flex">
                           <div class="one-half">
                             <a href="MealPlan/day3-dinner.html">
-                            <h3> Slow Cooker Rotisserie Chicken Noodle Soup </h3>
-                          </a>
+                              <h3> Slow Cooker Rotisserie Chicken Noodle Soup </h3>
+                            </a>
                           </div>
                           <div class="one-forth">
                             <span class="price">Dinner</span>
@@ -246,7 +250,7 @@
                 <div class="card-header p-0" id="headingFour">
                   <h2 class="mb-0">
                     <button class="d-flex py-4 px-4 align-items-center justify-content-between btn btn-link" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
-                      <p class="mb-0"><span><img src="images/diet.png" style="width: auto; height: 3em" alt=""></span>Day 4</p>
+                      <p class="mb-0"><span><img src="images/diet.png" style="width: auto; height: 3em" alt="Accordion Icon"></span>Day 4</p>
                       <i class="fa" aria-hidden="true"></i>
                     </button>
                   </h2>
@@ -259,8 +263,8 @@
                         <div class="d-flex">
                           <div class="one-half">
                             <a href="MealPlan/day4-breakfast.html">
-                            <h3> Steel Cut Oatmeal with Frozen Berries and Walnuts </h3>
-                          </a>
+                              <h3> Steel Cut Oatmeal with Frozen Berries and Walnuts </h3>
+                            </a>
                           </div>
                           <div class="one-forth">
                             <span class="price">Breakfast</span>
@@ -275,8 +279,8 @@
                         <div class="d-flex">
                           <div class="one-half">
                             <a href="MealPlan/day4-lunch.html">
-                            <h3> Slow Cooker Rotisserie Chicken Noodle Soup </h3>
-                          </a>
+                              <h3> Slow Cooker Rotisserie Chicken Noodle Soup </h3>
+                            </a>
                           </div>
                           <div class="one-forth">
                             <span class="price">Lunch</span>
@@ -291,8 +295,8 @@
                         <div class="d-flex">
                           <div class="one-half">
                             <a href="MealPlan/day4-dinner.html">
-                            <h3> Tofu and Broccoli Stir-Fry with Quinoa </h3>
-                          </a>
+                              <h3> Tofu and Broccoli Stir-Fry with Quinoa </h3>
+                            </a>
                           </div>
                           <div class="one-forth">
                             <span class="price">Dinner</span>
@@ -309,7 +313,7 @@
                 <div class="card-header p-0" id="headingFive">
                   <h2 class="mb-0">
                     <button class="d-flex py-4 px-4 align-items-center justify-content-between btn btn-link" data-toggle="collapse" data-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
-                      <p class="mb-0"><span><img src="images/diet.png" style="width: auto; height: 3em" alt=""></span>Day 5</p>
+                      <p class="mb-0"><span><img src="images/diet.png" style="width: auto; height: 3em" alt="Accordion Icon"></span>Day 5</p>
                       <i class="fa" aria-hidden="true"></i>
                     </button>
                   </h2>
@@ -322,8 +326,8 @@
                         <div class="d-flex">
                           <div class="one-half">
                             <a href="MealPlan/day5-breakfast.html">
-                            <h3> Southwest Egg & Cheese Breakfast Sandwiches </h3>
-                          </a>
+                              <h3> Southwest Egg & Cheese Breakfast Sandwiches </h3>
+                            </a>
                           </div>
                           <div class="one-forth">
                             <span class="price">Breakfast</span>
@@ -338,8 +342,8 @@
                         <div class="d-flex">
                           <div class="one-half">
                             <a href="MealPlan/day5-lunch.html">
-                            <h3> Southwest Rotisserie Chicken Salad </h3>
-                          </a>
+                              <h3> Southwest Rotisserie Chicken Salad </h3>
+                            </a>
                           </div>
                           <div class="one-forth">
                             <span class="price">Lunch</span>
@@ -354,8 +358,8 @@
                         <div class="d-flex">
                           <div class="one-half">
                             <a href="MealPlan/day5-dinner.html">
-                            <h3> Spaghetti with Meat Sauce and a Spinach Side Salad </h3>
-                          </a>
+                              <h3> Spaghetti with Meat Sauce and a Spinach Side Salad </h3>
+                            </a>
                           </div>
                           <div class="one-forth">
                             <span class="price">Dinner</span>
@@ -372,7 +376,7 @@
                 <div class="card-header p-0" id="headingSix">
                   <h2 class="mb-0">
                     <button class="d-flex py-4 px-4 align-items-center justify-content-between btn btn-link" data-toggle="collapse" data-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
-                      <p class="mb-0"><span><img src="images/diet.png" style="width: auto; height: 3em" alt=""></span>Day 6</p>
+                      <p class="mb-0"><span><img src="images/diet.png" style="width: auto; height: 3em" alt="Accordion Icon"></span>Day 6</p>
                       <i class="fa" aria-hidden="true"></i>
                     </button>
                   </h2>
@@ -385,8 +389,8 @@
                         <div class="d-flex">
                           <div class="one-half">
                             <a href="MealPlan/day6-breakfast.html">
-                            <h3> Banana Pancakes with Honey Yogurt </h3>
-                          </a>
+                              <h3> Banana Pancakes with Honey Yogurt </h3>
+                            </a>
                           </div>
                           <div class="one-forth">
                             <span class="price">Breakfast</span>
@@ -401,8 +405,8 @@
                         <div class="d-flex">
                           <div class="one-half">
                             <a href="MealPlan/day6-lunch.html">
-                            <h3> Tofu and Broccoli Stir-Fry with Quinoa </h3>
-                          </a>
+                              <h3> Tofu and Broccoli Stir-Fry with Quinoa </h3>
+                            </a>
                           </div>
                           <div class="one-forth">
                             <span class="price">Lunch</span>
@@ -417,8 +421,8 @@
                         <div class="d-flex">
                           <div class="one-half">
                             <a href="MealPlan/day6-dinner.html">
-                            <h3> Skillet Beef & Caramelized Onion Toasts </h3>
-                          </a>
+                              <h3> Skillet Beef & Caramelized Onion Toasts </h3>
+                            </a>
                           </div>
                           <div class="one-forth">
                             <span class="price">Dinner</span>
@@ -435,7 +439,7 @@
                 <div class="card-header p-0" id="headingSeven">
                   <h2 class="mb-0">
                     <button class="d-flex py-4 px-4 align-items-center justify-content-between btn btn-link" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="true" aria-controls="collapseSeven">
-                      <p class="mb-0"><span><img src="images/diet.png" style="width: auto; height: 3em" alt=""></span>Day 7</p>
+                      <p class="mb-0"><span><img src="images/diet.png" style="width: auto; height: 3em" alt="Accordion Icon"></span>Day 7</p>
                       <i class="fa" aria-hidden="true"></i>
                     </button>
                   </h2>
@@ -448,8 +452,8 @@
                         <div class="d-flex">
                           <div class="one-half">
                             <a href="MealPlan/day7-breakfast.html">
-                            <h3> Toast with Avocado Mash and Scrambled Eggs </h3>
-                          </a>
+                              <h3> Toast with Avocado Mash and Scrambled Eggs </h3>
+                            </a>
                           </div>
                           <div class="one-forth">
                             <span class="price">Breakfast</span>
@@ -464,8 +468,8 @@
                         <div class="d-flex">
                           <div class="one-half">
                             <a href="MealPlan/day7-lunch.html">
-                            <h3> Spaghetti with Meat Sauce and a Spinach Side Salad</h3>
-                          </a>
+                              <h3> Spaghetti with Meat Sauce and a Spinach Side Salad</h3>
+                            </a>
                           </div>
                           <div class="one-forth">
                             <span class="price">Lunch</span>
@@ -480,8 +484,8 @@
                         <div class="d-flex">
                           <div class="one-half">
                             <a href="MealPlan/day7-dinner.html">
-                            <h3> Curried Sweet Potato Soup with Curry-Cumin Roasted Cauliflower </h3>
-                          </a>
+                              <h3> Curried Sweet Potato Soup with Curry-Cumin Roasted Cauliflower </h3>
+                            </a>
                           </div>
                           <div class="one-forth">
                             <span class="price">Dinner</span>
@@ -497,8 +501,8 @@
             </div>
           </div>
           <!-- <h1>Grocery List</h1> -->
-          <div class="row mt-5">
-          <div class="col">
+          <div class="grocery-list row mt-5 justify-content-center">
+            <div class="ms-sm-5 col-lg-3">
               <h4>Bakery</h4>
               <ul>
                 <li>English muffins <span class="ingredient-measure">12</span></li>
@@ -512,7 +516,7 @@
                 <li>Baking powder <span class="ingredient-measure">4 tsp</span></li>
                 <li>Brown sugar <span class="ingredient-measure">2 tsp</span></li>
                 <li>Cornstarch <span class="ingredient-measure">2 Tbsp + 2 tsp</span></li>
-                <li>Flour <span class="ingredient-measure">2 1/2 cups</span></li>
+                <li>Flour <span class="ingredient-measure">2 ½ cups</span></li>
                 <li>Sugar <span class="ingredient-measure">~1 Tbsp</span></li>
               </ul>
               <h4>Boxed or Canned Goods</h4>
@@ -531,15 +535,15 @@
                 <li>Butter <span class="ingredient-measure">5 Tbsp</span></li>
                 <li>Cottage cheese <span class="ingredient-measure">2 cups</span></li>
                 <li>Eggs <span class="ingredient-measure">20</span></li>
-                <li>Extra-firm tofu, preferably vacuum-packed <span class="ingredient-measure">20 oz</span></li>
+                <li>Extra-firm tofu<span class="ingredient-measure">20 oz</span></li>
                 <li>Mayonnaise or plain yogurt <span class="ingredient-measure">6 Tbsp</span></li>
-                <li>Mexican blend cheese, grated <span class="ingredient-measure">3 1/2 cups</span></li>
+                <li>Mexican blend cheese, grated <span class="ingredient-measure">3 ½ cups</span></li>
                 <li>Milk <span class="ingredient-measure">2 Tbsp</span></li>
                 <li>Parmesan (opt) <span class="ingredient-measure">for serving</span></li>
                 <li>Yogurt, plain <span class="ingredient-measure">1 cup + 3 Tbsp</span></li>
               </ul>
             </div>
-            <div class="col">
+            <div class="ms-sm-5 col-lg-3">
               <h4>Frozen</h4>
               <ul>
                 <li>Corn kernels <span class="ingredient-measure">1 cup</span></li>
@@ -548,40 +552,40 @@
               </ul>
               <h4>Grains, Nuts and Pasta</h4>
               <ul>
-                <li>Panko <span class="ingredient-measure">1/2 cup</span></li>
-                <li>Pasta, spaghetti <span class="ingredient-measure">1 1/2 lbs</span></li>
-                <li>Pasta, uncooked (like elbows, shells) <span class="ingredient-measure">2 cups</span></li>
+                <li>Panko <span class="ingredient-measure">½ cup</span></li>
+                <li>Pasta, spaghetti <span class="ingredient-measure">1 ½ lbs</span></li>
+                <li>Pasta, uncooked<span class="ingredient-measure">2 cups</span></li>
                 <li>Quinoa, uncooked <span class="ingredient-measure">3 cups</span></li>
                 <li>Steel cut oats <span class="ingredient-measure">2 cups</span></li>
-                <li>Walnuts, crushed <span class="ingredient-measure">3/4 cup</span></li>
+                <li>Walnuts, crushed <span class="ingredient-measure">¾ cup</span></li>
               </ul>
               <h4>Meats</h4>
               <ul>
                 <li>Ground beef, lean <span class="ingredient-measure">3 lbs</span></li>
                 <li>Rotisserie chicken <span class="ingredient-measure">1</span></li>
-                <li>Salmon <span class="ingredient-measure">1 to 1 1/4 lbs</span></li>
+                <li>Salmon <span class="ingredient-measure">1 to 1 ¼ lbs</span></li>
               </ul>
               <h4>Miscellaneous</h4>
               <ul>
                 <li>Hummus <span class="ingredient-measure">~2 cups</span></li>
-                <li>Tomato salsa <span class="ingredient-measure">1 1/2 cups</span></li>
+                <li>Tomato salsa <span class="ingredient-measure">1 ½ cups</span></li>
               </ul>
               <h4>Oils, Vinegars and Sauces</h4>
               <ul>
-                <li>Dijon mustard <span class="ingredient-measure">6 1/2 Tbsp</span></li>
+                <li>Dijon mustard <span class="ingredient-measure">6 ½ Tbsp</span></li>
                 <li>Honey <span class="ingredient-measure">2 Tbsp</span></li>
                 <li>Hot sauce <span class="ingredient-measure">for serving</span></li>
                 <li>Ketchup <span class="ingredient-measure">1 Tbsp</span></li>
-                <li>Maple syrup <span class="ingredient-measure">3 1/2 Tbsp</span></li>
-                <li>Oil, general cooking (like avocado, grapeseed, vegetable) <span class="ingredient-measure">~5 cups</span></li>
+                <li>Maple syrup <span class="ingredient-measure">3 ½ Tbsp</span></li>
+                <li>Oil, general cooking<span class="ingredient-measure">~5 cups</span></li>
                 <li>Oil, olive <span class="ingredient-measure">2 Tbsp</span></li>
-                <li>Soy sauce <span class="ingredient-measure">1/4 cup + 1 tsp</li>
+                <li>Soy sauce <span class="ingredient-measure">¼ cup + 1 tsp</li>
                 <li>Vinegar, balsamic <span class="ingredient-measure">1 Tbsp</span></li>
                 <li>Vinegar, red wine <span class="ingredient-measure">9 Tbsp + 2 tsp</span></li>
                 <li>Vinegar, rice <span class="ingredient-measure">2 Tbsp</span></li>
               </ul>
             </div>
-            <div class="col">
+            <div class="ms-sm-5 col-lg-3">
               <h4>Produce</h4>
               <ul>
                 <li>Apples <span class="ingredient-measure">8</span></li>
@@ -589,17 +593,17 @@
                 <li>Baby spinach <span class="ingredient-measure">10 oz</span></li>
                 <li>Bananas <span class="ingredient-measure">9</span></li>
                 <li>Broccoli, chopped <span class="ingredient-measure">2 lbs</span></li>
-                <li>Brown or cremini mushrooms, sliced <span class="ingredient-measure">1 lb</span></li>
-                <li>Carrots <span class="ingredient-measure">2 1/2 lbs</span></li>
-                <li>Celery <span class="ingredient-measure">1 1/2 bunches</span></li>
+                <li>Brown or cremini mushrooms <span class="ingredient-measure">1 lb</span></li>
+                <li>Carrots <span class="ingredient-measure">2 ½ lbs</span></li>
+                <li>Celery <span class="ingredient-measure">1 ½ bunches</span></li>
                 <li>Cucumbers <span class="ingredient-measure">1</span></li>
                 <li>Garlic <span class="ingredient-measure">14 cloves</span></li>
                 <li>Lemons <span class="ingredient-measure">2</span></li>
                 <li>Onions <span class="ingredient-measure">4</span></li>
                 <li>Red bell peppers <span class="ingredient-measure">3</span></li>
-                <li>Romaine lettuce, chopped and washed <span class="ingredient-measure">1 head</span></li>
+                <li>Romaine lettuce<span class="ingredient-measure">1 head</span></li>
                 <li>Shallots <span class="ingredient-measure">1 bulb</span></li>
-                <li>Sweet potatoes, peeled and cubed <span class="ingredient-measure">2 lbs</span></li>
+                <li>Sweet potatoes<span class="ingredient-measure">2 lbs</span></li>
                 <li>Tomatoes <span class="ingredient-measure">3</span></li>
                 <li>Zucchini <span class="ingredient-measure">2</span></li>
               </ul>
@@ -608,89 +612,53 @@
                 <li>Bay leaves <span class="ingredient-measure">2</span></li>
                 <li>Cumin <span class="ingredient-measure">2 tsp</span></li>
                 <li>Curry powder <span class="ingredient-measure">1 Tbsp + 1 tsp</span></li>
-                <li>Garlic powder <span class="ingredient-measure">1 1/2 tsp</span></li>
-                <li>Ground ginger (opt) <span class="ingredient-measure">1/2 Tbsp</span></li>
+                <li>Garlic powder <span class="ingredient-measure">1 ½ tsp</span></li>
+                <li>Ground ginger (opt) <span class="ingredient-measure">½ Tbsp</span></li>
                 <li>Italian seasonings <span class="ingredient-measure">1 Tbsp + 1 tsp</span></li>
-                <li>Oregano, dried <span class="ingredient-measure">1/2 tsp</span></li>
+                <li>Oregano, dried <span class="ingredient-measure">½ tsp</span></li>
                 <li>Paprika <span class="ingredient-measure">1 tsp</span></li>
-                <li>Red pepper flakes <span class="ingredient-measure">1/2 tsp</span></li>
+                <li>Red pepper flakes <span class="ingredient-measure">½ tsp</span></li>
                 <li>Salt</li>
                 <li>Black pepper</li>
               </ul>
             </div>
           </div>
-            
-          </div>
 
         </div>
-      <script src="https://preview.colorlib.com/theme/bac/accordion-02/js/jquery.min.js"></script>
-      <script src="https://preview.colorlib.com/theme/bac/accordion-02/js/popper.js"></script>
-      <script src="https://preview.colorlib.com/theme/bac/accordion-02/js/bootstrap.min.js"></script>
-      <script src="https://preview.colorlib.com/theme/bac/accordion-02/js/main.js"></script>
-      <script defer src="https://static.cloudflareinsights.com/beacon.min.js/vaafb692b2aea4879b33c060e79fe94621666317369993" integrity="sha512-0ahDYl866UMhKuYcW078ScMalXqtFJggm7TmlUtp0UlD4eQk0Ixfnm5ykXKvGJNFjLMoortdseTfsRT8oCfgGA==" data-cf-beacon='{"rayId":"775442291e9a6e5d","token":"cd0b4b3a733644fc843ef0b185f98241","version":"2022.11.3","si":100}' crossorigin="anonymous"></script>
-        <!-- Back to top button -->
-<button
-        type="button"
-        class="btn btn-light btn-floating btn-lg"
-        id="btn-back-to-top"
-        >
-  <i><img style="width: 2em; height: auto;" src="images/arrow-up.png" alt="arrow up"></i>
-</button>
+
+      </div>
+      <!-- Back to top button -->
+      <button type="button" class="btn btn-light btn-floating btn-lg" id="btn-back-to-top" >
+        <i><img style="width: 2em; height: auto;" src="images/arrow-up.png" alt="arrow up"></i>
+      </button>
 
     </main>
-      <script>
-        //Get the button
-let mybutton = document.getElementById("btn-back-to-top");
 
-// When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function () {
-  scrollFunction();
-};
-
-function scrollFunction() {
-  if (
-    document.body.scrollTop > 20 ||
-    document.documentElement.scrollTop > 20
-  ) {
-    mybutton.style.display = "block";
-  } else {
-    mybutton.style.display = "none";
-  }
-}
-// When the user clicks on the button, scroll to the top of the document
-mybutton.addEventListener("click", backToTop);
-
-function backToTop() {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
-}
-      </script>
-
-    <footer style="background-color: #deded5;">
+    <footer>
       <div class="container-fluid p-4">
         <div class="row justify-content-between">
           <div class="col-lg-6 col-md-12">
-            <h5 class="mb-3" style="letter-spacing: 2px; color: #818963;">Ecouisine</h5>
+            <h5 class="mb-3">Ecouisine</h5>
             <p>Ecouisine is a trusted resource for foods, dishes, and meal plans
-                including their recipes. Its sole purpose is to present and offer
-                people meals at affordable prices. It lets people eat delicious
-                meals, save money, and repeat the process again and again.</p>
+              including their recipes. Its sole purpose is to present and offer
+              people meals at affordable prices. It lets people eat delicious
+              meals, save money, and repeat the process again and again.</p>
           </div>
           <div class="col-lg-3 col-md-6 mb-4">
-            <h5 class="mb-3" style="letter-spacing: 2px; color: #818963;">Links</h5>
+            <h5 class="mb-3">Links</h5>
             <ul class="list-unstyled mb-0">
               <li class="mb-1">
-                <a href="contact.html" style="color: #4f4f4f;">Contact Us</a>
+                <a href="contact.html">Contact Us</a>
               </li>
               <li>
-                <a href="about.html" style="color: #4f4f4f;">About Us</a>
+                <a href="about.html">About Us</a>
               </li>
             </ul>
           </div>
         </div>
       </div>
       <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-        © 2022 Copyright: Ecouisine
+        © 2022 Copyright: Ecouisine. All rights reserved
       </div>
     </footer>
   </body>

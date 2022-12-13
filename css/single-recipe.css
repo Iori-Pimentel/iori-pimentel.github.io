@@ -1,12 +1,27 @@
+#start {
+  padding-top: 2em;
+}
+.single-recipe-section h3 + div{
+  margin-top: 2rem;
+}
 
+/* #checklist:hover{ */
+/*   --check: #65A7ED; */
+/* } */
+
+label:hover {
+  --text: #965B10;
+}
+
+.single-preparation-step + .single-preparation-step {
+  margin-bottom: 2rem;
+}
 
 .cont_photo {
-  max-height: 400px;
+  margin: 0 auto;
   background-color: #eee;
   border-radius:5px;
-  top: -20px;
-  float: left;
-  z-index: 2;
+  z-index: 1;
   -webkit-transition: all 0.5s;
   -o-transition: all 0.5s;
   transition: all 0.5s;
@@ -15,7 +30,7 @@
 }
 
 .cont_img_back {
-  max-height: 400px;
+  max-height: 500px;
   width: 100%;
   height: 100%;
   overflow: hidden;
@@ -53,11 +68,11 @@
 }
 
 .subtle {
-  color: #aaa;
+  color: #777385;
 }
 
 .card-container {
-  margin: 25px auto 0;
+  margin: 25px auto 2em;
   position: relative;
   max-width: 100%;
 }
@@ -67,7 +82,7 @@
   padding: 30px;
   position: relative;
   box-shadow: 0 0 5px rgba(75, 75, 75, .07);
-  z-index: 1;
+  z-index: 0;
 }
 
 .card-body {
@@ -150,7 +165,7 @@
   height: 1px;
   margin: -1px auto 0;
   width: 80%;
-  z-index: -1;
+  z-index: -2;
 }
 
 
@@ -419,10 +434,11 @@
 
 .single-preparation-step {
   position: relative;
-  z-index: 1;
+  z-index: 0;
 margin: 5px 0; }
 .single-preparation-step h4 {
-  color: #474747;
+  color: #965B10;
+  text-shadow: 1px 2px #91421D24;
   -webkit-box-flex: 0;
   -ms-flex: 0 0 60px;
   flex: 0 0 60px;
@@ -431,7 +447,7 @@ margin: 5px 0; }
 margin-bottom: 0; }
 
 
-p {
+main p {
   color: #4f4f4f;
   font-size: 20px;
   line-height: 2;
