@@ -39,7 +39,9 @@ nav a:hover { color: #666 !important; }
   color: #e3c61e !important;
 }
 
-
+nav ul {
+  margin: 0 !important;
+}
 
 /*
 =============== 
@@ -152,9 +154,10 @@ a {
   outline: none !important;
 }
 
-.material-symbols-outlined.contacts-icon {
-  font-size: 90px;
-  color: #e3c61e;
+@media (max-width: 767px) {
+  .u-left-cell {
+    order: 999;
+  }
 }
 
 /*
