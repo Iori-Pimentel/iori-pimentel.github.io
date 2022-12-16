@@ -48,10 +48,10 @@ Click Sound
 ===============
 */
 
-const popSound = new Audio('/others/pop.wav');
-const clickSound = new Audio('/others/click.wav');
+const popSound = new Audio('../others/pop.wav');
+const clickSound = new Audio('../others/click.wav');
 
-const allButtons = document.querySelectorAll('input');
+const allButtons = document.querySelectorAll('#checklist > input');
 console.log(allButtons)
 for (var i = 0; i < allButtons.length; i++) {
   allButtons[i].addEventListener('click', function() {
