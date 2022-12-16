@@ -1,3 +1,25 @@
+.single-preparation-step {
+  position: relative;
+  z-index: 0;
+margin: 5px 0; }
+.single-preparation-step h4 {
+  color: #4F29F0;
+  text-shadow: 1px 2px #91421D24;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 60px;
+  flex: 0 0 60px;
+  max-width: 60px;
+  width: 60px;
+margin-bottom: 0; }
+
+
+main p {
+  color: #4f4f4f;
+  font-size: 20px;
+  line-height: 2;
+font-weight: 400; }
+
+
 #start {
   padding-top: 2em;
 }
@@ -432,24 +454,5 @@ label:hover {
 
 
 
-.single-preparation-step {
-  position: relative;
-  z-index: 0;
-margin: 5px 0; }
-.single-preparation-step h4 {
-  color: #965B10;
-  text-shadow: 1px 2px #91421D24;
-  -webkit-box-flex: 0;
-  -ms-flex: 0 0 60px;
-  flex: 0 0 60px;
-  max-width: 60px;
-  width: 60px;
-margin-bottom: 0; }
 
-
-main p {
-  color: #4f4f4f;
-  font-size: 20px;
-  line-height: 2;
-font-weight: 400; }
 
