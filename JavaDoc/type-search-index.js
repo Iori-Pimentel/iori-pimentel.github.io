@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"prog2.prelimgroup","l":"Fraction"}];updateSearchResults();
